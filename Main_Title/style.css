@@ -5,7 +5,7 @@
 /*git remote add origin "링크" 깃허브에 연동*/
 /*git remote -v 연동 확인*/
 /*git push origin master 깃허브로 보내기*/
-/*git branch*/
+/*git pull origin master --rebase 변경사항 때문에 오류났을 때*/
 body {
     font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
