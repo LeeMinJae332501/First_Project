@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>룰렛</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎡 룰렛</h1>
+
+  <textarea id="entries" placeholder="항목을 한 줄씩 입력하세요"></textarea>
+  <div class="buttons">
+    <button onclick="generateWheel()">룰렛 만들기</button>
+    <button onclick="spinWheel()">돌리기!</button>
+  </div>
+
+  <canvas id="wheel" width="500" height="500"></canvas>
+  <h2 id="winner">당첨: </h2>
+
+  <script src="function.js"></script>
+</body>
+</html>
